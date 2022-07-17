@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<!-- TODO: 또 무엇이 필요할까요? -->
-	</head>
-	<body>
-		<header>
-			<!-- TODO: 어디까지를 header로 보는 것이 좋을까요? -->
-		</header>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- TODO: 또 무엇이 필요할까요? -->
+    <!-- -> title과 meta 정보 -->
+    <meta name="description" content="HTML meta tag page" />
+    <meta name="author" content="yeeun" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quest 01</title>
+  </head>
+  <body>
+    <header>
+      <!-- TODO: 어디까지를 header로 보는 것이 좋을까요? -->
+      <!-- -> 헤더(header)는 보통 도입부에 해당하는 콘텐츠나 네비게이션 링크의 집합 등과 같은 정보를 포함하게 됩니다.
+		- 하나 이상의 제목 요소(h1 ~ h6)
+		- 로고(logo)나 아이콘(icon)
+		- 메뉴 정보 (nav)
+		- 저자(author) 정보-->
+      <h1>페이지 제목</h1>
+      <img src="..." alt="로고" />
+      <nav>
+        <ul>
+          <li>메뉴 1</li>
+          <li>메뉴 2</li>
+        </ul>
+      </nav>
+    </header>
 
-		<section class="main">
-			<!-- TODO: main은 어떤 식으로 나눌 수 있을까요? -->
-		</section>
+    <section class="main">
+      <!-- TODO: main은 어떤 식으로 나눌 수 있을까요? -->
+    </section>
 
-		<footer>
-			<!-- TODO: 하단의 여러 가지 링크들은 어떻게 처리하면 좋을까요? -->
-		</footer>
-	</body>
+    <footer>
+      <!-- TODO: 하단의 여러 가지 링크들은 어떻게 처리하면 좋을까요? -->
+      <!-- -> 같은 층위에 비슷한 요소들이 반복될 때는 ul, ol, dl과 같은 리스트 요소를 사용하면 쉽게 읽고 이해할 수 있다.
+		ul : 순서가 없는 목록 / ol : 순서가 있는 목록 / dl : 키워드와 설명을 위한 목록-->
+      <p>Copyright © 2022 the1020.github.io. All rights reserved.</p>
+      <address>Contact me for more information.</address>
+    </footer>
+  </body>
 </html>
